@@ -4,6 +4,7 @@ import pandas as pd
 
 from pyprojroot import here
 
+import os
   
 
 def main(): 
