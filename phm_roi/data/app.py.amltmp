@@ -10,7 +10,7 @@ import os
 def main(): 
 
     # Load the dataset 
-    path_data = here("./data")
+    path_data = 'phm-roi/phm_roi/data'
     os.chdir(path_data)
 
     data = pd.read_csv('data_analyses_phm_roi_demo.csv') 
