@@ -2,11 +2,15 @@ import streamlit as st
 
 import pandas as pd 
 
+from pyprojroot import here
+
   
 
 def main(): 
 
     # Load the dataset 
+    path_data = here("./data")
+    os.chdir(path_data)
 
     data = pd.read_csv('data_analyses_phm_roi_demo.csv') 
 
